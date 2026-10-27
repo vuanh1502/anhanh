@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project · Anh Anh's Portfolio</title>
+  <meta name="description" content="Case study from Hue Anh's UI/UX portfolio.">
+  <!-- link preview (Messenger, Zalo, LinkedIn, Slack…) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ankank.netlify.app/project.html">
+  <meta property="og:title" content="Project · Anh Anh's Portfolio">
+  <meta property="og:description" content="Case study from Hue Anh's UI/UX portfolio.">
+  <meta property="og:image" content="https://ankank.netlify.app/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://ankank.netlify.app/assets/og-image.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Hanken+Grotesk:wght@400;500;600;700&family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/project.css">
+  <script>
+    // Apply the saved theme before first paint to avoid a flash.
+    try {
+      var t = localStorage.getItem('theme');
+      if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+    } catch (e) {}
+  </script>
+</head>
+<body class="project-page">
+  <div class="project-shell">
+    <nav class="nav">
+      <div class="nav__inner">
+        <a class="nav__logo" href="index.html#home" aria-label="Back to home">
+          <span class="head-swap" aria-hidden="true"><svg class="nav__logo-art head-swap__cat" width="44.8687" height="45.6452" viewBox="0 0 44.8687 45.6452" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><g id="Layer_1" clip-path="url(#clip0_0_490)"><path id="Vector" d="M7.98714 36.2991C5.75036 36.8312 3.51976 35.2162 1.79036 31.8688C-2.74199 23.0887 3.3558 27.8995 5.59567 27.3674" fill="currentColor"/><path id="Vector_2" d="M36.8848 36.2983C39.1215 36.8304 41.3521 35.2155 43.0815 31.8681C47.6139 23.088 41.5161 27.8988 39.2762 27.3667" fill="currentColor"/><path id="Vector_3" d="M5.55273 25.8417C5.82189 30.8536 6.9573 35.5035 9.8252 38.9097C13.021 42.7088 17.4111 45.487 22.4168 45.487C27.308 45.487 31.7228 42.8387 34.7949 39.1819C37.6751 35.7571 38.9559 30.9804 39.2777 25.8417C40.113 12.5602 32.7901 6.19636 22.4168 6.19636C12.0434 6.19636 4.84736 12.7211 5.55273 25.8417Z" fill="currentColor"/><path id="Vector_4" d="M40.5736 6.27387L30.1539 12.0654C29.9002 12.2046 29.761 12.4892 29.8012 12.7738L29.9311 13.6865C30.2281 15.7655 31.905 17.3711 33.9932 17.5815L35.1874 17.7022C35.4659 17.73 35.7319 17.5908 35.868 17.3464L41.5234 7.22055C41.8668 6.6049 41.1893 5.92737 40.5736 6.27077V6.27387Z" fill="currentColor"/><path id="Vector_5" d="M4.88753 6.27354L15.3073 12.065C15.561 12.2043 15.7002 12.4889 15.66 12.7735L15.53 13.6862C15.233 15.7652 13.5562 17.3708 11.4679 17.5812L10.2738 17.7019C9.99532 17.7297 9.72925 17.5905 9.59313 17.3461L3.93775 7.22641C3.59435 6.61076 4.27188 5.93323 4.88753 6.27663V6.27354Z" fill="currentColor"/><path id="Vector_6" d="M22.578 0.107953C16.3689 0.107953 11.3354 1.1227 11.3354 2.37258C11.3354 3.62245 16.3689 4.6372 22.578 4.6372C28.7872 4.6372 33.8207 3.62245 33.8207 2.37258C33.8207 1.1227 28.7841 0.107953 22.578 0.107953ZM22.578 3.70598C17.3775 3.70598 13.1638 3.10889 13.1638 2.37258C13.1638 1.63627 17.3775 1.03917 22.578 1.03917C27.7786 1.03917 31.9923 1.63627 31.9923 2.37258C31.9923 3.10889 27.7786 3.70598 22.578 3.70598Z" fill="currentColor"/></g><defs><clipPath id="clip0_0_490"><rect width="44.8687" height="45.6452" fill="white"/></clipPath></defs></svg><img class="head-swap__robot" src="assets/intro/logo-robot.svg" alt="" width="49" height="46"></span>
+        </a>
+        <p class="nav__title">Portfolio</p>
+        <div class="nav__right">
+          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light mode">
+            <svg class="icon-sun" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><g id="Frame"><path id="Vector" d="M12 3V5.25M18.364 5.636L16.773 7.227M21 12H18.75M18.364 18.364L16.773 16.773M12 18.75V21M7.227 16.773L5.636 18.364M5.25 12H3M7.227 7.227L5.636 5.636M15.75 12C15.75 12.9946 15.3549 13.9484 14.6517 14.6517C13.9484 15.3549 12.9946 15.75 12 15.75C11.0054 15.75 10.0516 15.3549 9.34835 14.6517C8.64509 13.9484 8.25 12.9946 8.25 12C8.25 11.0054 8.64509 10.0516 9.34835 9.34835C10.0516 8.64509 11.0054 8.25 12 8.25C12.9946 8.25 13.9484 8.64509 14.6517 9.34835C15.3549 10.0516 15.75 11.0054 15.75 12Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"/></g></svg>
+            <svg class="icon-moon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"/></svg>
+          </button>
+          <button class="nav__link" type="button" data-open-cv>_RESUME</button>
+        </div>
+        <button class="nav__menu" id="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="menu-panel">
+          <span class="nine-dots" aria-hidden="true"></span>
+        </button>
+      </div>
+      <div class="menu-panel" id="menu-panel" hidden>
+        <button class="menu-panel__item" type="button" data-action="theme">SWITCH THEME</button>
+        <button class="menu-panel__item" type="button" data-open-cv>_RESUME</button>
+      </div>
+    </nav>
+
+    <main class="project" id="project">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <div class="crumbs__path">
+          <svg class="crumbs__folder" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2.5 6.2c0-.9.7-1.6 1.6-1.6h5l2 2.2h8.8c.9 0 1.6.7 1.6 1.6v9.4c0 .9-.7 1.6-1.6 1.6H4.1c-.9 0-1.6-.7-1.6-1.6V6.2Z" fill="currentColor"/><path d="M2.5 9.4h19" stroke="var(--card-01)" stroke-width="1.2"/></svg>
+          <a class="crumbs__home" href="index.html#home">Home/</a>
+          <div class="crumbs__pick">
+            <button class="crumbs__name" id="crumb-toggle" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="crumb-menu">
+              <span id="crumb-name"></span>
+              <svg class="crumbs__caret" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" focusable="false"><path d="m4 6 4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <ul class="crumbs__menu" id="crumb-menu" hidden></ul>
+          </div>
+        </div>
+        <div class="crumbs__nav">
+          <a class="crumbs__arrow crumbs__arrow--prev" id="prev-project" href="#"><span class="pixel-arrow" aria-hidden="true"></span></a>
+          <a class="crumbs__arrow" id="next-project" href="#"><span class="pixel-arrow" aria-hidden="true"></span></a>
+        </div>
+      </nav>
+
+      <section class="pj-intro">
+        <div class="pj-intro__logo"><img class="pj-logo pj-logo--dark" id="pj-logo" alt=""><img class="pj-logo pj-logo--light" id="pj-logo-light" alt=""></div>
+        <div class="pj-intro__text">
+          <h1 class="pj-intro__title" id="pj-title"></h1>
+          <dl class="pj-intro__meta">
+            <div><dt>Intro</dt><dd id="pj-desc"></dd></div>
+            <div><dt>Field</dt><dd id="pj-field"></dd></div>
+          </dl>
+        </div>
+      </section>
+
+      <div class="pj-tabs" role="tablist" aria-label="Sections" id="pj-tabs"></div>
+      <div class="pj-subtabs" role="tablist" aria-label="Screens" id="pj-subtabs"></div>
+      <section class="pj-view" id="pj-view" role="tabpanel" aria-live="polite"></section>
+    </main>
+  </div>
+
+  <!-- ============ RESUME POPUP ============ -->
+  <dialog class="cv" id="cv" aria-labelledby="cv-title">
+    <header class="cv__header">
+      <h2 class="cv__title" id="cv-title">Resume</h2>
+      <div class="cv__actions">
+        <button class="cv__btn cv__portfolio" type="button">View my portfolio</button>
+        <a class="cv__btn cv__download" href="assets/cv/VuNguyenHueAnh-CV.pdf" download="VuNguyenHueAnh-CV.pdf" aria-label="Download resume (PDF)">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"/></svg>
+        </a>
+        <button class="cv__close" type="button" aria-label="Close resume">&times;</button>
+      </div>
+    </header>
+    <div class="cv__body">
+      <img src="assets/cv/VuNguyenHueAnh-CV.png" alt="Resume of Vu Nguyen Hue Anh, UI UX Designer" width="1440" height="3112" loading="lazy">
+    </div>
+  </dialog>
+
+  <script src="js/project.js"></script>
+</body>
+</html>

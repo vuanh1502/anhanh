@@ -1,0 +1,16 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ico nmail">
+<path id="Vector" d="M20 0C8.97287 0 0 8.97094 0 20C0 31.0291 8.97287 40 20 40C31.0271 40 40 31.0291 40 20C40 8.97094 31.0271 0 20 0ZM20 38.6678C9.70752 38.6678 1.33458 30.2931 1.33458 20C1.33458 9.70687 9.70752 1.33217 20 1.33217C30.2925 1.33217 38.6654 9.70687 38.6654 20C38.6654 30.2931 30.2925 38.6678 20 38.6678Z" fill="#C4C4C4"/>
+<g id="Envelope" clip-path="url(#clip0_0_69)">
+<g id="Vector_2">
+</g>
+<path id="Vector_3" d="M12.125 14.0934H27.875V25.2497C27.875 25.4237 27.8059 25.5907 27.6828 25.7137C27.5597 25.8368 27.3928 25.9059 27.2188 25.9059H12.7812C12.6072 25.9059 12.4403 25.8368 12.3172 25.7137C12.1941 25.5907 12.125 25.4237 12.125 25.2497V14.0934Z" fill="#C4C4C4" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round" stroke="#C4C4C4"/>
+<path id="Vector_4" d="M27.875 14.0934L20 21.3122L12.125 14.0934" stroke-width="1.125" stroke-linecap="round" stroke-linejoin="round" stroke="#030303"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_69">
+<rect width="21" height="21" fill="white" transform="translate(9.5 9.49969)"/>
+</clipPath>
+</defs>
+</svg>
